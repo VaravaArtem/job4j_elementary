@@ -24,6 +24,6 @@ public class MathCalculator {
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Сумма разницы и деления равна: " + sumOfTwoOperations(10, 20));
-        System.out.println("Сумма всех операций равна: " + sumOfAllOperations(10, 20));
+        System.out.println("Сумма всех операций будет равна: " + sumOfAllOperations(10, 20));
     }
 }
