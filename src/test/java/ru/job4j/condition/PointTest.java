@@ -14,6 +14,7 @@ class PointTest {
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void whenMinus50to20then7() {
         double expected = 7;
@@ -23,7 +24,7 @@ class PointTest {
         int y2 = 0;
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
-        }
+    }
 
     @Test
     void when50to20then3() {
@@ -57,4 +58,5 @@ class PointTest {
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
-    }
+
+}
